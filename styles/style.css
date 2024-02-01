@@ -151,7 +151,7 @@ body {
             padding: 4rem 4rem;
         }
 
-        .buy-options {
+        .buy-options-wrapper {
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -188,6 +188,7 @@ body {
             background-color: var(--purple-bg-color);
             border: none;
         }
+
     }
 }
 

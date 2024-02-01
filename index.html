@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <a class="nav__main-href">not_a_bubble.com</a>
+            <button type="button" class="nav__menu-button menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                <svg width="48" height="48" viewBox="0 0 100 100">
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+            </button>
+            <div class="nav__menu-container">
+                <a class="nav__menu-container__href">about</a>
+                <a class="nav__menu-container__href">sale</a>
+                <a class="nav__menu-container__href">contacts</a>
+            </div>
+        </div>
+    </header>
+    <article class="article">
+        <section class="entry-section">
+            <h1 class="entry-section__header">Pop It!</h1>
+            <p class="entry-section__text">Best Antistress Toy is the Endless toy bubble wrap!</p>
+            <button type="button"  class="entry-section__button">Buy</button>
+        </section>
+        <section class="info-section">
+            <h3 class="info-section__title">What is Pop it exactly?</h3>
+            <p class="info-section__text">
+                This is a child's game, in which the process
+                can be compared to the bursting of a bubble wrap.
+                But unlike film, pop-it can be pressed with the same
+                characteristic sensations and sounds "endlessly",
+                dozens of silicone bubbles are simply squeezed out
+                in the other direction.
+            </p>
+        </section>
+        <section class="buy-section">
+            <h3 class="buy-section__title">Choose your Pop-It!</h3>
+            <div class="buy-options">
+                <div class="buy-section__buy-option">
+                    <img class="buy-section__buy-option__image" src="assets/square.png" alt="square-popit" loading="lazy"/>
+                    <p class="buy-section__buy-option__name">Multicolored square</p>
+                    <button type="button" class="buy-section__buy-option__button">Buy</button>
+                </div>
+                <div class="buy-section__buy-option">
+                    <img class="buy-section__buy-option__image" src="assets/amongus.png" alt="square-popit" loading="lazy"/>
+                    <p class="buy-section__buy-option__name">Among Us, marbled</p>
+                    <button type="button" class="buy-section__buy-option__button">Buy</button>
+                </div>
+                <div class="buy-section__buy-option">
+                    <img class="buy-section__buy-option__image" src="assets/round.png" alt="square-popit" loading="lazy"/>
+                    <p class="buy-section__buy-option__name">Multicolored round</p>
+                    <button type="button" class="buy-section__buy-option__button">Buy</button>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+
+    </footer>
+</body>
+</html>

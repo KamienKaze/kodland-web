@@ -1,0 +1,9 @@
+body {
+    --red-bg-color: #fa2e20;
+    --green-bg-color: #9bfa50;
+    --purple-bg-color: #fc7e20;
+    --gray-bg-color: #333333;
+
+    --text-primary-color: #fdfdfd;
+    --text-secondary-color: #000000;
+}

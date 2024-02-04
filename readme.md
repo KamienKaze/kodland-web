@@ -1,0 +1,3 @@
+- Wykonałem menu burgerowe którego wysunięcie jest możliwe poniżej pewnej szerokości ekranu.
+- Użyłem czcionki, która moim zdaniem pasuje do designu strony.
+- Cała strona jest adaptacyjna w taki sposób żeby zachować jak największe podobieństwo do szablonu

@@ -1,3 +1,3 @@
-- Wykonałem menu burgerowe którego wysunięcie jest możliwe poniżej pewnej szerokości ekranu.
+- Wykonałem menu burgerowe którego wysunięcie jest możliwe poniżej pewnej szerokości ekranu (aby zaoszczędzić czasu, użyłem animacji znalezionej w internecie).
 - Użyłem czcionki, która moim zdaniem pasuje do designu strony.
 - Cała strona jest adaptacyjna w taki sposób żeby zachować jak największe podobieństwo do szablonu
